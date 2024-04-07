@@ -112,4 +112,23 @@ footer {
   .about-img {
     width: 100%;
   }
+  .home {
+    flex-direction: column;
+  }
+  .home-left {
+    width: 100%;
+  }
+  .home-right {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+  }
+  .about-text {
+    text-align: justify;
+    word-break: break-all;
+  }
+  .mentoria {
+    padding-left: 5%; 
+    padding-right: 5%; 
+  }
 }
