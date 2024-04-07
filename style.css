@@ -9,7 +9,7 @@
 
 body {
   font-size: 100%;
-  /*background-color: black;*/
+  background-color: black;
 }
 
 header {
@@ -97,7 +97,6 @@ footer {
   width: 36%;
   display: block;
   margin: 0 auto; 
-  padding-bottom: 4rem;
 }
 
 /* Media query para dispositivos com largura máxima de 768px (como celulares) */
@@ -125,10 +124,23 @@ footer {
   }
   .about-text {
     text-align: justify;
-    word-break: break-all;
+    text-justify: distribute;
+    word-spacing:-2px;
+
   }
   .mentoria {
     padding-left: 5%; 
     padding-right: 5%; 
   }
+}
+
+.about-img-logo {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  padding-right: 10%; 
+  border: 0;
 }
